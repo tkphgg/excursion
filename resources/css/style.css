@@ -5,9 +5,41 @@
     color: white;
     text-align: center;
     font-weight: normal;
-    
+    box-sizing: content-box;
 }
 
 html{
     font-size: 16px;
+}
+
+h2{
+    font-weight: 300;
+    font-size: 2.625rem;
+}
+
+p{
+    font-size: 1rem;
+    color: aquamarine;
+    text-decoration: underline;
+}
+
+/*Content*/
+/*Top header*/
+.header h1{
+    font-size: 3.125rem;
+}
+
+/*Video*/
+.video-container video{
+    max-width: 75%;
+}
+
+/*Personal travel guide*/
+.personal-travel-guide h4{
+    font-size: 1.3125rem;
+    color: gray;
+}
+
+.personal-travel-guide img{
+    max-width: 95%;
 }
