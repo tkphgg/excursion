@@ -1,6 +1,5 @@
 *{
     background-color: black;
-    padding: 15px;
     font-family: Verdana, sans-serif;
     color: white;
     text-align: center;
@@ -17,10 +16,16 @@ h2{
     font-size: 2.625rem;
 }
 
+h4{
+    font-size: 1.3125rem;
+    color: gray;
+}
+
 p{
     font-size: 1rem;
     color: aquamarine;
     text-decoration: underline;
+    margin: 1.3125rem auto;
 }
 
 /*Content*/
@@ -29,17 +34,22 @@ p{
     font-size: 3.125rem;
 }
 
+.header p{
+    margin: 1.3125rem auto;
+}
 /*Video*/
 .video-container video{
     max-width: 75%;
 }
 
 /*Personal travel guide*/
-.personal-travel-guide h4{
-    font-size: 1.3125rem;
-    color: gray;
-}
-
 .personal-travel-guide img{
     max-width: 95%;
+}
+
+/*Footer*/
+footer h4{
+    text-align: right;
+    color: gray;
+    margin: 1.3125rem 0;
 }
